@@ -2,7 +2,7 @@
   "author": "Imanuddin Ardian Hermawan",
   "name": "react-webtesting-ardian-ui",
   "description": "For testing UI components in React application",
-  "private": false,
+  "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
