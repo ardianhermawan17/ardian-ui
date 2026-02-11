@@ -1,0 +1,25 @@
+{
+  "name": "@repo/builder",
+  "version": "1.0.0",
+  "description": "Repository builder",
+  "author": "Imanuddin Ardian Hermawan (imanuddin.ardian@gmail.com)",
+  "license": "MIT",
+  "type": "module",
+  "main": "./builder.js",
+  "exports": {
+    ".": "./builder.js"
+  },
+  "bin": {
+    "ardian-build": "./ardian-build.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.27.3",
+    "tsup": "^8.5.1"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "eslint": "^9.39.1"
+  },
+  "private": true
+}

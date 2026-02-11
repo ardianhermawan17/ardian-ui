@@ -1,0 +1,1 @@
+Get-ChildItem -Path . -Filter "dist" -Recurse | Remove-Item -Force -Recurse

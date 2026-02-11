@@ -1,0 +1,1 @@
+export * as PrimitiveInputText from '@ardian-ui/primitive-input-text'

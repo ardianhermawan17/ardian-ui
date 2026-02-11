@@ -1,0 +1,8 @@
+{
+  "name": "@repo/typescript-config",
+  "version": "1.0.0",
+  "description": "Importable typescript configuration for Ardian UI packages",
+  "author": "Imanuddin Ardian Hermawan (imanuddin.ardian@gmail.com)",
+  "license": "MIT",
+  "private": true
+}

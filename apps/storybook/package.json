@@ -1,0 +1,35 @@
+{
+  "name": "@repo/storybook",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --max-warnings 0 .",
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "serve": "serve storybook-static -l 6006",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@repo/mock-data": "workspace:*",
+    "@ardian-ui/core": "workspace:*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^5.0.1",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@storybook/addon-docs": "^10.2.8",
+    "@storybook/addon-webpack5-compiler-swc": "^4.0.2 ",
+    "@storybook/react-webpack5": "^10.2.8",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "eslint": "^9.39.1",
+    "eslint-plugin-storybook": "^10.2.8",
+    "serve": "^14.2.5",
+    "storybook": "^10.2.8",
+    "typescript": "~5.9.3"
+  }
+}

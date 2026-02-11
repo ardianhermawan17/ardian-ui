@@ -1,0 +1,20 @@
+{
+  "name": "@repo/mock-data",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "eslint": "^9.39.1",
+    "typescript": "~5.9.3"
+  },
+  "exports": {
+    "./*": "./*.ts"
+  },
+  "scripts": {
+    "lint": "eslint --max-warnings 0 .",
+    "check-types": "tsc --noEmit"
+  }
+}
